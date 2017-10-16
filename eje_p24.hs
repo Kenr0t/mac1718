@@ -7,8 +7,8 @@ noNegativo::(Num a, Ord a)=>a->Bool
 -- DEFINICIÓN
 noNegativo x = x >= 0
 {-PRUEBAS-}
-pru1 = positivo (–2.5) -- devuelve False
-pru2 = positivo 0-- devuelve True
-pru3 = positivo 5-- devuelve True
+pru1 = noNegativo (-2.5) -- devuelve False
+pru2 = noNegativo 0-- devuelve True
+pru3 = noNegativo 5-- devuelve True
 
 {- ------------------------------------------- -}
