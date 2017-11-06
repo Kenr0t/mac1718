@@ -1,0 +1,1 @@
+primos x = length (divisores x) == 2

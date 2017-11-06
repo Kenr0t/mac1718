@@ -1,0 +1,2 @@
+--Main> descomposicion 60
+--[(2,2),(3,1),(5,1)]
