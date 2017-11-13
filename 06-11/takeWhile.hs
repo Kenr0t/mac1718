@@ -1,0 +1,1 @@
+takeWhile x y = [z | z <- y, x z]
